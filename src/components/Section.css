@@ -1,0 +1,224 @@
+.section {
+  padding: 4rem 1rem;
+  background-color: white;
+  margin-bottom: 2rem;
+}
+
+.section:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #0033a0;
+  margin-bottom: 2rem;
+  text-align: center;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, #0033a0, #0052cc);
+  border-radius: 2px;
+}
+
+.section-content {
+  line-height: 1.8;
+}
+
+.section-text {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+.section-text strong {
+  color: #0033a0;
+  font-weight: 600;
+}
+
+.section-text.highlight {
+  background: linear-gradient(135deg, #f0f7ff 0%, #e0efff 100%);
+  padding: 1.5rem;
+  border-left: 4px solid #0033a0;
+  border-radius: 4px;
+  font-size: 1.15rem;
+  margin-top: 2rem;
+}
+
+/* Achievements Grid */
+.achievements-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.achievement-item {
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #0033a0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.achievement-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px rgba(0, 51, 160, 0.2);
+}
+
+.achievement-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #0033a0;
+  margin-bottom: 1rem;
+}
+
+.achievement-description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.7;
+}
+
+/* Rivalries */
+.rivalry-main,
+.rivalry-others {
+  margin-bottom: 2rem;
+}
+
+.rivalry-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #0033a0;
+  margin-bottom: 1rem;
+}
+
+/* Players Grid */
+.players-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.player-item {
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #0033a0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.player-item:hover {
+  transform: translateX(5px);
+  box-shadow: 0 4px 16px rgba(0, 51, 160, 0.2);
+}
+
+.player-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #0033a0;
+  margin-bottom: 1rem;
+}
+
+.player-description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.7;
+}
+
+/* CTA Box */
+.cta-box {
+  background: linear-gradient(135deg, #0033a0 0%, #0052cc 100%);
+  color: white;
+  padding: 2.5rem;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 2rem;
+  box-shadow: 0 4px 16px rgba(0, 51, 160, 0.3);
+}
+
+.cta-text {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.cta-text strong {
+  color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .section {
+    padding: 2.5rem 1rem;
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+  }
+
+  .section-text {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .achievements-grid,
+  .players-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .achievement-item,
+  .player-item {
+    padding: 1.5rem;
+  }
+
+  .achievement-title,
+  .player-name {
+    font-size: 1.25rem;
+  }
+
+  .rivalry-title {
+    font-size: 1.5rem;
+  }
+
+  .cta-box {
+    padding: 2rem 1.5rem;
+  }
+
+  .cta-text {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    padding: 2rem 1rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .section-text {
+    font-size: 0.95rem;
+  }
+}
+
