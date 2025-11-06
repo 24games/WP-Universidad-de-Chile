@@ -13,7 +13,7 @@ const Rivalries = () => {
         <div className="card card-with-image">
           <div className="rivalry-image-container">
             <img 
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDeWNN2OzxPIf-WDKcuRt7v1kXrM7V9KzVlQ&s" 
+              src="https://e1.pxfuel.com/desktop-wallpaper/85/475/desktop-wallpaper-colo-colo-vs-universidad-de-chile-colo-colo.jpg" 
               alt="Superclásico Chileno - Universidad de Chile vs Colo-Colo" 
               className="rivalry-image"
             />
