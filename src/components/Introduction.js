@@ -6,44 +6,44 @@ const Introduction = () => {
     <section className="content-section intro-section">
       <div className="container">
         <div className="section-header">
-          <span className="section-label">Introdução</span>
-          <h2 className="section-title">O Clube que Define o Futebol Chileno</h2>
+          <span className="section-label">Introducción</span>
+          <h2 className="section-title">El Club que Define el Fútbol Chileno</h2>
         </div>
         
         <div className="content-grid">
           <div className="content-main">
             <div className="content-text">
               <p className="lead-text">
-                Fundado em <strong>24 de maio de 1927</strong>, o Club Universidad de Chile 
-                não é apenas um time de futebol. É uma instituição que transcende o esporte, 
-                representando valores, tradição e paixão que unem milhões de chilenos.
+                Fundado el <strong>24 de mayo de 1927</strong>, el Club Universidad de Chile 
+                no es solo un equipo de fútbol. Es una institución que trasciende el deporte, 
+                representando valores, tradición y pasión que unen a millones de chilenos.
               </p>
               
               <p>
-                Conhecido carinhosamente como <strong>"La U"</strong> ou <strong>"Los Azules"</strong>, 
-                o clube carrega consigo quase um século de história, conquistas memoráveis e uma 
-                torcida que transforma cada jogo em uma celebração da identidade nacional chilena.
+                Conocido cariñosamente como <strong>"La U"</strong> o <strong>"Los Azules"</strong>, 
+                el club lleva consigo casi un siglo de historia, logros memorables y una 
+                hinchada que transforma cada partido en una celebración de la identidad nacional chilena.
               </p>
               
               <p>
-                Com <strong>18 títulos nacionais</strong> e a histórica <strong>Copa Libertadores de 2011</strong>, 
-                o Universidad de Chile estabeleceu-se como o clube mais vitorioso do país, mas sua 
-                grandeza vai além dos troféus: está na forma como representa o povo chileno, na 
-                cultura que cria e na paixão que inspira.
+                Con <strong>18 títulos nacionales</strong> y la histórica <strong>Copa Libertadores de 2011</strong>, 
+                la Universidad de Chile se ha establecido como el club más exitoso del país, pero su 
+                grandeza va más allá de los trofeos: está en la forma en que representa al pueblo chileno, en la 
+                cultura que crea y en la pasión que inspira.
               </p>
             </div>
           </div>
           
           <div className="content-sidebar">
             <div className="info-card">
-              <h3 className="info-card-title">Em Números</h3>
+              <h3 className="info-card-title">En Cifras</h3>
               <ul className="info-list">
                 <li>
-                  <span className="info-label">Fundação</span>
+                  <span className="info-label">Fundación</span>
                   <span className="info-value">1927</span>
                 </li>
                 <li>
-                  <span className="info-label">Títulos Nacionais</span>
+                  <span className="info-label">Títulos Nacionales</span>
                   <span className="info-value">18</span>
                 </li>
                 <li>
@@ -51,8 +51,8 @@ const Introduction = () => {
                   <span className="info-value">1</span>
                 </li>
                 <li>
-                  <span className="info-label">Torcedores</span>
-                  <span className="info-value">Milhões</span>
+                  <span className="info-label">Hinchas</span>
+                  <span className="info-value">Millones</span>
                 </li>
               </ul>
             </div>

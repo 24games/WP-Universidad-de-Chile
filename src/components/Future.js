@@ -7,31 +7,31 @@ const Future = () => {
       <div className="container container-narrow">
         <div className="section-header">
           <span className="section-label">Futuro</span>
-          <h2 className="section-title">Olhando para o Amanhã</h2>
+          <h2 className="section-title">Mirando hacia el Mañana</h2>
         </div>
         
         <div className="content-text">
           <p className="lead-text">
-            O Universidad de Chile continua olhando para o futuro com <strong>ambição e determinação</strong>, 
-            investindo constantemente em sua base de jovens talentos.
+            La Universidad de Chile continúa mirando hacia el futuro con <strong>ambición y determinación</strong>, 
+            invirtiendo constantemente en su cantera de jóvenes talentos.
           </p>
           
           <p>
-            A busca pela excelência continua sendo o objetivo principal. O clube trabalha incansavelmente 
-            para retomar a Copa Libertadores e continuar conquistando títulos no Campeonato Chileno, mantendo 
-            sua posição como o clube mais vitorioso do país.
+            La búsqueda de la excelencia continúa siendo el objetivo principal. El club trabaja incansablemente 
+            para retomar la Copa Libertadores y continuar conquistando títulos en el Campeonato Chileno, manteniendo 
+            su posición como el club más exitoso del país.
           </p>
           
           <p>
-            Novas contratações estratégicas, investimentos em infraestrutura e o desenvolvimento contínuo da 
-            equipe técnica são parte do plano para garantir que o Universidad de Chile permaneça no topo do 
-            futebol chileno e sul-americano.
+            Nuevas contrataciones estratégicas, inversiones en infraestructura y el desarrollo continuo del 
+            cuerpo técnico son parte del plan para garantizar que la Universidad de Chile permanezca en la cima del 
+            fútbol chileno y sudamericano.
           </p>
           
           <p>
-            Além dos objetivos esportivos, o clube também está comprometido em manter e fortalecer sua conexão 
-            com a torcida, desenvolvendo projetos sociais, culturais e educacionais que reforçam o papel do 
-            Universidad de Chile como uma instituição que vai além do futebol.
+            Además de los objetivos deportivos, el club también está comprometido a mantener y fortalecer su conexión 
+            con la hinchada, desarrollando proyectos sociales, culturales y educacionales que refuerzan el papel de la 
+            Universidad de Chile como una institución que va más allá del fútbol.
           </p>
         </div>
       </div>

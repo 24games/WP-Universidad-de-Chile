@@ -1,82 +1,81 @@
 # Landing Page - Universidad de Chile
 
-Landing page informativa sobre o Universidad de Chile, o clube de futebol chileno mais vitorioso e popular.
+Landing page informativa sobre la Universidad de Chile, el club de fútbol chileno más exitoso y popular.
 
-## 🚀 Como executar o projeto
+## 🚀 Cómo ejecutar el proyecto
 
-### Pré-requisitos
+### Requisitos previos
 
-- Node.js (versão 14 ou superior)
-- npm ou yarn
+- Node.js (versión 14 o superior)
+- npm o yarn
 
-### Instalação
+### Instalación
 
-1. Instale as dependências:
+1. Instala las dependencias:
 ```bash
 npm install
 ```
 
-2. Execute o projeto em modo de desenvolvimento:
+2. Ejecuta el proyecto en modo de desarrollo:
 ```bash
 npm start
 ```
 
-3. Abra [http://localhost:3000](http://localhost:3000) no seu navegador para visualizar a página.
+3. Abre [http://localhost:3000](http://localhost:3000) en tu navegador para visualizar la página.
 
-### Build para produção
+### Build para producción
 
-Para criar uma versão otimizada para produção:
+Para crear una versión optimizada para producción:
 
 ```bash
 npm run build
 ```
 
-Os arquivos otimizados estarão na pasta `build/`.
+Los archivos optimizados estarán en la carpeta `build/`.
 
-## 📁 Estrutura do Projeto
+## 📁 Estructura del Proyecto
 
 ```
 ├── public/
 │   └── index.html          # HTML principal
 ├── src/
 │   ├── components/         # Componentes React
-│   │   ├── Header.js       # Cabeçalho da página
-│   │   ├── Introduction.js # Seção de introdução
-│   │   ├── History.js      # História do clube
-│   │   ├── Achievements.js # Principais conquistas
+│   │   ├── Header.js       # Encabezado de la página
+│   │   ├── Introduction.js # Sección de introducción
+│   │   ├── History.js      # Historia del club
+│   │   ├── Achievements.js # Principales logros
 │   │   ├── Rivalries.js    # Rivalidades
-│   │   ├── Stadium.js      # Estádio Nacional
-│   │   ├── Players.js      # Principais jogadores
-│   │   ├── Culture.js      # Cultura e torcida
-│   │   ├── Future.js       # Futuro e expectativas
-│   │   ├── Conclusion.js   # Conclusão
-│   │   ├── Footer.js       # Rodapé
-│   │   ├── Header.css      # Estilos do cabeçalho
-│   │   ├── Section.css     # Estilos das seções
-│   │   └── Footer.css      # Estilos do rodapé
+│   │   ├── Stadium.js      # Estadio Nacional
+│   │   ├── Players.js      # Principales jugadores
+│   │   ├── Culture.js      # Cultura e hinchada
+│   │   ├── Future.js       # Futuro y expectativas
+│   │   ├── Conclusion.js   # Conclusión
+│   │   ├── Footer.js       # Pie de página
+│   │   ├── Header.css      # Estilos del encabezado
+│   │   ├── Content.css     # Estilos de las secciones
+│   │   └── Footer.css      # Estilos del pie de página
 │   ├── App.js              # Componente principal
-│   ├── App.css             # Estilos do App
-│   ├── index.js            # Ponto de entrada
-│   └── index.css           # Estilos globais
-├── package.json            # Dependências do projeto
-└── README.md              # Este arquivo
+│   ├── App.css             # Estilos del App
+│   ├── index.js            # Punto de entrada
+│   └── index.css           # Estilos globales
+├── package.json            # Dependencias del proyecto
+└── README.md              # Este archivo
 ```
 
-## 🎨 Tecnologias Utilizadas
+## 🎨 Tecnologías Utilizadas
 
-- **React** 18.2.0 - Biblioteca JavaScript para construção de interfaces
-- **CSS** - Estilização sem frameworks (sem Tailwind CSS)
-- **React Scripts** - Ferramentas de build e desenvolvimento
+- **React** 18.2.0 - Biblioteca JavaScript para construcción de interfaces
+- **CSS** - Estilización sin frameworks (sin Tailwind CSS)
+- **React Scripts** - Herramientas de build y desarrollo
 
 ## 📝 Características
 
-- ✅ Design responsivo para mobile e desktop
-- ✅ Componentes React reutilizáveis
-- ✅ Estilização com CSS puro (sem Tailwind)
-- ✅ Conteúdo informativo e educativo
-- ✅ Layout organizado e fácil de navegar
+- ✅ Diseño responsivo para móvil y escritorio
+- ✅ Componentes React reutilizables
+- ✅ Estilización con CSS puro (sin Tailwind)
+- ✅ Contenido informativo y educativo
+- ✅ Layout organizado y fácil de navegar
 
-## 📄 Licença
+## 📄 Licencia
 
-Este projeto é exclusivamente informativo, sem fins lucrativos ou comerciais.
-
+Este proyecto es exclusivamente informativo, sin fines de lucro ni comerciales.

@@ -6,20 +6,20 @@ const Conclusion = () => {
     <section className="content-section">
       <div className="container container-narrow">
         <div className="section-header">
-          <span className="section-label">Conclusão</span>
-          <h2 className="section-title">Mais que um Clube, uma Identidade</h2>
+          <span className="section-label">Conclusión</span>
+          <h2 className="section-title">Más que un Club, una Identidad</h2>
         </div>
         
         <div className="content-text">
           <p className="lead-text">
-            O <strong>Universidad de Chile</strong> não é apenas um clube de futebol: é uma parte vital 
-            da cultura, da história e da identidade chilena.
+            La <strong>Universidad de Chile</strong> no es solo un club de fútbol: es una parte vital 
+            de la cultura, la historia y la identidad chilena.
           </p>
           
           <p>
-            Com quase um século de existência, o clube construiu um legado de conquistas, paixão e excelência 
-            que o torna o maior símbolo do futebol do Chile. Desde sua fundação em 1927 até os dias atuais, 
-            o Universidad de Chile tem sido uma fonte de orgulho para milhões de chilenos.
+            Con casi un siglo de existencia, el club ha construido un legado de logros, pasión y excelencia 
+            que lo convierte en el mayor símbolo del fútbol de Chile. Desde su fundación en 1927 hasta la actualidad, 
+            la Universidad de Chile ha sido una fuente de orgullo para millones de chilenos.
           </p>
           
           <div className="card" style={{ 
@@ -31,12 +31,12 @@ const Conclusion = () => {
           }}>
             <div className="card-body" style={{ color: 'var(--white)' }}>
               <p style={{ fontSize: '1.5rem', fontWeight: 600, marginBottom: 'var(--space-6)' }}>
-                O clube continuará sendo uma referência no futebol sul-americano e uma fonte de inspiração 
-                para gerações futuras.
+                El club continuará siendo una referencia en el fútbol sudamericano y una fuente de inspiración 
+                para las generaciones futuras.
               </p>
               <p style={{ fontSize: '1.125rem', margin: 0, opacity: 0.9 }}>
-                O Universidad de Chile é, e sempre será, muito mais que um time: é uma paixão, uma identidade 
-                e uma parte essencial da alma chilena.
+                La Universidad de Chile es, y siempre será, mucho más que un equipo: es una pasión, una identidad 
+                y una parte esencial del alma chilena.
               </p>
               <div style={{ marginTop: 'var(--space-8)', display: 'flex', gap: 'var(--space-4)', justifyContent: 'center', flexWrap: 'wrap' }}>
                 <button 
@@ -61,7 +61,7 @@ const Conclusion = () => {
                     e.target.style.boxShadow = 'none';
                   }}
                 >
-                  Voltar ao Topo
+                  Volver al Inicio
                 </button>
               </div>
             </div>

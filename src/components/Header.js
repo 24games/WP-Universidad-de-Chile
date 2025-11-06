@@ -6,12 +6,12 @@ const Header = () => {
     <header className="site-header">
       <div className="header-wrapper">
         <div className="header-content">
-          <div className="header-text-content">
-            <div className="header-badge">Futebol Chileno</div>
+            <div className="header-text-content">
+            <div className="header-badge">Fútbol Chileno</div>
             <div className="header-title-container">
               <h1 className="header-title">
                 <span className="title-main">Universidad de Chile</span>
-                <span className="title-sub">O Legado Azul</span>
+                <span className="title-sub">El Legado Azul</span>
               </h1>
               <div className="header-logo-container">
                 <img 
@@ -22,15 +22,15 @@ const Header = () => {
               </div>
             </div>
             <p className="header-lead">
-              A história completa do clube mais vitorioso e amado do Chile, 
-              desde sua fundação até os dias atuais.
+              La historia completa del club más exitoso y querido de Chile, 
+              desde su fundación hasta la actualidad.
             </p>
           </div>
         </div>
         <div className="header-stats">
           <div className="stat-item">
             <div className="stat-number">18</div>
-            <div className="stat-label">Títulos Nacionais</div>
+            <div className="stat-label">Títulos Nacionales</div>
           </div>
           <div className="stat-item">
             <div className="stat-number">1</div>
@@ -38,7 +38,7 @@ const Header = () => {
           </div>
           <div className="stat-item">
             <div className="stat-number">1927</div>
-            <div className="stat-label">Fundação</div>
+            <div className="stat-label">Fundación</div>
           </div>
         </div>
       </div>

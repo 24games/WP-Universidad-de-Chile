@@ -6,8 +6,8 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <p className="footer-text">
-          Esta página é exclusivamente informativa, sem fins lucrativos ou comerciais. Não possui nenhum propósito de gerar retorno financeiro 
-          e busca apenas fornecer conteúdo histórico e educativo sobre o clube Universidad de Chile.
+          Esta página es exclusivamente informativa, sin fines de lucro ni comerciales. No posee ningún propósito de generar retorno financiero 
+          y busca únicamente proporcionar contenido histórico y educativo sobre el club Universidad de Chile.
         </p>
       </div>
     </footer>

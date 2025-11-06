@@ -7,34 +7,34 @@ const Culture = () => {
       <div className="container container-narrow">
         <div className="section-header">
           <span className="section-label">Cultura</span>
-          <h2 className="section-title">A Paixão que Une um País</h2>
+          <h2 className="section-title">La Pasión que Une un País</h2>
         </div>
         
         <div className="content-text">
           <p className="lead-text">
-            A torcida do Universidad de Chile, conhecida como <strong>"Los de Abajo"</strong> e 
-            <strong> "La Garra Blanca"</strong>, é uma das mais apaixonadas e organizadas do continente 
-            sul-americano.
+            La hinchada de la Universidad de Chile, conocida como <strong>"Los de Abajo"</strong> y 
+            <strong> "La Garra Blanca"</strong>, es una de las más apasionadas y organizadas del continente 
+            sudamericano.
           </p>
           
           <p>
-            Com milhões de torcedores espalhados por todo o Chile e além, a torcida do "La U" é conhecida 
-            por seu apoio incondicional, sua criatividade nos cânticos e sua lealdade absoluta ao clube. 
-            Os jogos do Universidad de Chile são verdadeiros espetáculos, com a torcida criando uma atmosfera 
-            única e envolvente.
+            Con millones de hinchas repartidos por todo Chile y más allá, la hinchada de "La U" es conocida 
+            por su apoyo incondicional, su creatividad en los cánticos y su lealtad absoluta al club. 
+            Los partidos de la Universidad de Chile son verdaderos espectáculos, con la hinchada creando una atmósfera 
+            única y envolvente.
           </p>
           
           <p>
-            A cultura do clube vai muito além do futebol. O Universidad de Chile representa uma identidade 
-            coletiva que une pessoas de todas as classes sociais, origens e idades. O clube é um ponto de 
-            encontro, uma fonte de orgulho e um símbolo de união nacional.
+            La cultura del club va mucho más allá del fútbol. La Universidad de Chile representa una identidad 
+            colectiva que une a personas de todas las clases sociales, orígenes y edades. El club es un punto de 
+            encuentro, una fuente de orgullo y un símbolo de unión nacional.
           </p>
           
           <div className="card" style={{ marginTop: 'var(--space-8)', background: 'linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%)', color: 'var(--white)', border: 'none' }}>
             <div className="card-body" style={{ color: 'var(--white)' }}>
               <p style={{ fontSize: '1.25rem', fontStyle: 'italic', margin: 0 }}>
-                "Para os chilenos, o Universidad de Chile não é apenas um clube de futebol: é uma forma de 
-                vida, uma identidade e uma fonte de orgulho que transcende o esporte."
+                "Para los chilenos, la Universidad de Chile no es solo un club de fútbol: es una forma de 
+                vida, una identidad y una fuente de orgullo que trasciende el deporte."
               </p>
             </div>
           </div>

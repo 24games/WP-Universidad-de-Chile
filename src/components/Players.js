@@ -6,32 +6,32 @@ const Players = () => {
     {
       name: 'Marcelo Salas',
       nickname: 'El Matador',
-      description: 'Um dos maiores ídolos da história do clube. Artilheiro histórico que marcou época no Universidad de Chile antes de se destacar na seleção chilena e em clubes europeus.'
+      description: 'Uno de los mayores ídolos de la historia del club. Goleador histórico que marcó época en la Universidad de Chile antes de destacarse en la selección chilena y en clubes europeos.'
     },
     {
       name: 'Jorge Valdivia',
       nickname: 'El Mago',
-      description: 'Fundamental na conquista da Copa Libertadores de 2011. Com técnica refinada e visão de jogo excepcional, se tornou um dos jogadores mais queridos da torcida.'
+      description: 'Fundamental en la conquista de la Copa Libertadores de 2011. Con técnica refinada y visión de juego excepcional, se convirtió en uno de los jugadores más queridos de la hinchada.'
     },
     {
       name: 'Eduardo Vargas',
       nickname: 'El Chupete',
-      description: 'Artilheiro da Copa Libertadores de 2011. Sua velocidade, habilidade e capacidade de marcar gols importantes o tornaram um dos jogadores mais decisivos da história recente.'
+      description: 'Goleador de la Copa Libertadores de 2011. Su velocidad, habilidad y capacidad para marcar goles importantes lo convirtieron en uno de los jugadores más decisivos de la historia reciente.'
     },
     {
       name: 'Charles Aránguiz',
       nickname: '',
-      description: 'Meio-campista de classe mundial, foi fundamental na conquista da Libertadores e se tornou um dos jogadores mais importantes da seleção chilena.'
+      description: 'Mediocampista de clase mundial, fue fundamental en la conquista de la Libertadores y se convirtió en uno de los jugadores más importantes de la selección chilena.'
     },
     {
       name: 'Johnny Herrera',
       nickname: '',
-      description: 'Goleiro histórico do clube, foi peça fundamental na conquista da Copa Libertadores. Se tornou um dos maiores goleiros da história do Universidad de Chile.'
+      description: 'Arquero histórico del club, fue pieza fundamental en la conquista de la Copa Libertadores. Se convirtió en uno de los mayores arqueros de la historia de la Universidad de Chile.'
     },
     {
       name: 'Eladio Vásquez',
-      nickname: 'Lenda',
-      description: 'Um dos pioneiros que ajudou a construir a identidade do Universidad de Chile. Sua dedicação e talento marcaram uma geração.'
+      nickname: 'Leyenda',
+      description: 'Uno de los pioneros que ayudó a construir la identidad de la Universidad de Chile. Su dedicación y talento marcaron a una generación.'
     }
   ];
 
@@ -40,7 +40,7 @@ const Players = () => {
       <div className="container">
         <div className="section-header">
           <span className="section-label">Ídolos</span>
-          <h2 className="section-title">Lendas que Fizeram História</h2>
+          <h2 className="section-title">Leyendas que Hicieron Historia</h2>
         </div>
         
         <div className="magazine-grid">
@@ -63,10 +63,10 @@ const Players = () => {
         <div className="card" style={{ marginTop: 'var(--space-10)', maxWidth: '800px', marginLeft: 'auto', marginRight: 'auto' }}>
           <div className="card-body">
             <p>
-              O Universidad de Chile tem uma tradição de formar e revelar grandes talentos que não apenas 
-              brilham no clube, mas também representam a seleção chilena em competições internacionais. 
-              A escola de futebol do clube é reconhecida por desenvolver jogadores técnicos, inteligentes 
-              e apaixonados, que carregam os valores e a identidade do "La U" para onde quer que vão.
+              La Universidad de Chile tiene una tradición de formar y revelar grandes talentos que no solo 
+              brillan en el club, sino que también representan a la selección chilena en competencias internacionales. 
+              La escuela de fútbol del club es reconocida por desarrollar jugadores técnicos, inteligentes 
+              y apasionados, que llevan los valores y la identidad de "La U" a donde quiera que vayan.
             </p>
           </div>
         </div>
