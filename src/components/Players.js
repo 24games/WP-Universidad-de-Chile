@@ -59,6 +59,13 @@ const Players = () => {
             representam a seleção chilena em competições internacionais. A escola de futebol do clube é reconhecida por desenvolver jogadores 
             técnicos, inteligentes e apaixonados, que carregam os valores e a identidade do "La U" para onde quer que vão.
           </p>
+          
+          <div className="players-media">
+            <div className="media-placeholder">
+              <span className="media-icon">⚽</span>
+              <p className="media-text">Imagens históricas dos grandes ídolos do Universidad de Chile</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

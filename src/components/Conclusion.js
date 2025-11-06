@@ -25,6 +25,19 @@ const Conclusion = () => {
             <p className="cta-text">
               <strong>Viva a história do Universidad de Chile e continue acompanhando as futuras conquistas!</strong>
             </p>
+            <div className="cta-buttons">
+              <button className="cta-button primary" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+                Voltar ao Topo
+              </button>
+              <button className="cta-button secondary" onClick={() => {
+                const achievementsSection = document.querySelector('.achievements');
+                if (achievementsSection) {
+                  achievementsSection.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}>
+                Ver Conquistas
+              </button>
+            </div>
           </div>
         </div>
       </div>

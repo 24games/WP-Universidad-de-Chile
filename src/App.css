@@ -6,5 +6,12 @@
 
 main {
   flex: 1;
+  position: relative;
 }
 
+/* Scroll Progress Indicator is now a React component */
+
+/* Smooth section transitions */
+.section {
+  scroll-margin-top: 20px;
+}

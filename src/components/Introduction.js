@@ -22,6 +22,13 @@ const Introduction = () => {
             chilena. O clube representa valores de união, perseverança e orgulho nacional, sendo uma parte fundamental da história e da identidade 
             do povo chileno.
           </p>
+          
+          <div className="intro-media">
+            <div className="media-placeholder">
+              <span className="media-icon">🏆</span>
+              <p className="media-text">O escudo e as cores do Universidad de Chile - símbolos de tradição e paixão</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

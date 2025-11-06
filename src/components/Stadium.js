@@ -26,6 +26,21 @@ const Stadium = () => {
             Para os torcedores do Universidad de Chile, o Estádio Nacional é mais do que um estádio: é um lugar sagrado onde memórias são 
             criadas, sonhos são realizados e a paixão pelo clube se manifesta em sua forma mais pura e intensa.
           </p>
+          
+          <div className="media-container">
+            <div className="media-item">
+              <div className="media-placeholder">
+                <span className="media-icon">📸</span>
+                <p className="media-text">Imagem do Estádio Nacional durante um jogo do Universidad de Chile</p>
+              </div>
+            </div>
+            <div className="media-item">
+              <div className="media-placeholder video">
+                <span className="media-icon">▶️</span>
+                <p className="media-text">Vídeo: Momentos históricos do Universidad de Chile no Estádio Nacional</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

@@ -5,8 +5,11 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header-container">
-        <h1 className="header-title">Tudo sobre o Universidad de Chile: História, Conquistas e Cultura</h1>
-        <p className="header-subtitle">Descubra tudo sobre o clube mais vitorioso do Chile</p>
+        <div className="header-badge">🏆 Clube Mais Vitorioso do Chile</div>
+        <h1 className="header-title">Tudo sobre o Universidad de Chile</h1>
+        <p className="header-subtitle">História, Conquistas e Cultura do Clube Azul</p>
+        <div className="header-divider"></div>
+        <p className="header-description">Descubra a trajetória do clube que conquistou o coração de milhões de chilenos</p>
       </div>
     </header>
   );
