@@ -6,6 +6,13 @@ const Header = () => {
     <header className="site-header">
       <div className="header-wrapper">
         <div className="header-content">
+          <div className="header-logo-container">
+            <img 
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKPbtHd--s0EGdBYziY3nxrGJ1u8w6r4r4xA&s" 
+              alt="Escudo Universidad de Chile" 
+              className="header-logo"
+            />
+          </div>
           <div className="header-badge">Futebol Chileno</div>
           <h1 className="header-title">
             <span className="title-main">Universidad de Chile</span>

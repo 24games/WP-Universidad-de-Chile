@@ -10,7 +10,14 @@ const Rivalries = () => {
           <h2 className="section-title">O Superclásico Chileno</h2>
         </div>
         
-        <div className="card">
+        <div className="card card-with-image">
+          <div className="rivalry-image-container">
+            <img 
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDeWNN2OzxPIf-WDKcuRt7v1kXrM7V9KzVlQ&s" 
+              alt="Superclásico Chileno - Universidad de Chile vs Colo-Colo" 
+              className="rivalry-image"
+            />
+          </div>
           <div className="card-header">
             <div className="card-subtitle">⚔️ O Confronto Mais Aguardado</div>
             <h3 className="card-title">Universidad de Chile vs Colo-Colo</h3>

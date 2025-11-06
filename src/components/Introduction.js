@@ -4,7 +4,7 @@ import './Content.css';
 const Introduction = () => {
   return (
     <section className="content-section intro-section">
-      <div className="container container-narrow">
+      <div className="container">
         <div className="section-header">
           <span className="section-label">Introdução</span>
           <h2 className="section-title">O Clube que Define o Futebol Chileno</h2>

@@ -137,6 +137,19 @@
   margin-top: var(--space-10);
 }
 
+.achievements-grid-reorganized {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.achievements-grid-reorganized .magazine-item.regular {
+  grid-column: span 1;
+}
+
+.achievements-grid-reorganized .magazine-item.featured {
+  grid-column: span 2;
+  margin-top: var(--space-6);
+}
+
 .magazine-item {
   background: var(--white);
   border-radius: var(--radius-lg);
@@ -180,6 +193,54 @@
   color: var(--gray-600);
 }
 
+/* Trophy Images */
+.trophy-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: var(--space-4) 0 var(--space-6);
+  height: 120px;
+}
+
+.trophy-image-container.large {
+  height: 180px;
+  margin: var(--space-6) 0 var(--space-8);
+}
+
+.trophy-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.15));
+  transition: var(--transition);
+}
+
+.trophy-image.large {
+  max-height: 180px;
+}
+
+.magazine-item:hover .trophy-image {
+  transform: scale(1.05);
+  filter: drop-shadow(0 6px 16px rgba(0, 0, 0, 0.2));
+}
+
+/* Rivalry Image */
+.rivalry-image-container {
+  width: 100%;
+  margin-bottom: var(--space-6);
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  overflow: hidden;
+  background: var(--gray-100);
+}
+
+.rivalry-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  max-height: 400px;
+}
+
 /* Card Styles */
 .card {
   background: var(--white);
@@ -188,6 +249,11 @@
   box-shadow: var(--shadow);
   border: 1px solid var(--gray-200);
   transition: var(--transition);
+  overflow: hidden;
+}
+
+.card-with-image {
+  padding: 0;
 }
 
 .card:hover {
@@ -197,6 +263,12 @@
 
 .card-header {
   margin-bottom: var(--space-6);
+  padding: 0 var(--space-8);
+  padding-top: var(--space-8);
+}
+
+.card-with-image .card-header {
+  padding: var(--space-6) var(--space-8) 0;
 }
 
 .card-title {
@@ -219,6 +291,8 @@
   font-size: 17px;
   line-height: 1.8;
   color: var(--gray-700);
+  padding: 0 var(--space-8);
+  padding-bottom: var(--space-8);
 }
 
 .card-body p {
@@ -331,6 +405,16 @@
   .magazine-item.regular,
   .magazine-item.small {
     grid-column: span 12;
+  }
+  
+  .achievements-grid-reorganized {
+    grid-template-columns: 1fr;
+  }
+  
+  .achievements-grid-reorganized .magazine-item.featured,
+  .achievements-grid-reorganized .magazine-item.regular {
+    grid-column: span 1;
+    margin-top: 0;
   }
 }
 
