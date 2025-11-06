@@ -1,46 +1,71 @@
 import React from 'react';
-import './Section.css';
+import './Content.css';
 
 const Achievements = () => {
   return (
-    <section className="section achievements">
-      <div className="section-container">
-        <h2 className="section-title">Principais Conquistas</h2>
-        <div className="section-content">
-          <div className="achievements-grid">
-            <div className="achievement-item">
-              <h3 className="achievement-title">🏆 Copa Libertadores da América</h3>
-              <p className="achievement-description">
-                <strong>2011</strong> - O Universidad de Chile conquistou a Copa Libertadores, tornando-se o primeiro e único clube chileno 
-                a vencer o torneio mais prestigioso da América do Sul. Esta conquista histórica consolidou o clube como uma potência continental.
-              </p>
-            </div>
-            <div className="achievement-item">
-              <h3 className="achievement-title">🥇 Campeonato Chileno (Primera División)</h3>
-              <p className="achievement-description">
-                <strong>18 títulos nacionais</strong> - O Universidad de Chile é o clube mais vitorioso do Campeonato Chileno, com 18 conquistas 
-                da Primera División, demonstrando sua dominância histórica no futebol nacional.
-              </p>
-            </div>
-            <div className="achievement-item">
-              <h3 className="achievement-title">🌎 Copa Sul-Americana</h3>
-              <p className="achievement-description">
-                <strong>2011</strong> - No mesmo ano da Libertadores, o clube também conquistou a Copa Sul-Americana, completando uma temporada 
-                histórica e inesquecível para os torcedores.
-              </p>
-            </div>
-            <div className="achievement-item">
-              <h3 className="achievement-title">🏅 Outros Títulos Nacionais</h3>
-              <p className="achievement-description">
-                Além dos campeonatos nacionais, o clube possui diversos títulos de copas nacionais e torneios regionais, consolidando sua 
-                hegemonia no futebol chileno ao longo de quase um século de história.
+    <section className="content-section">
+      <div className="container">
+        <div className="section-header">
+          <span className="section-label">Conquistas</span>
+          <h2 className="section-title">Títulos que Marcam a História</h2>
+        </div>
+        
+        <div className="stats-grid">
+          <div className="stat-card">
+            <div className="stat-number">18</div>
+            <div className="stat-label">Campeonatos Nacionais</div>
+          </div>
+          
+          <div className="stat-card">
+            <div className="stat-number">1</div>
+            <div className="stat-label">Copa Libertadores</div>
+          </div>
+          
+          <div className="stat-card">
+            <div className="stat-number">1</div>
+            <div className="stat-label">Copa Sul-Americana</div>
+          </div>
+          
+          <div className="stat-card">
+            <div className="stat-number">30+</div>
+            <div className="stat-label">Títulos Oficiais</div>
+          </div>
+        </div>
+        
+        <div className="magazine-grid">
+          <div className="magazine-item featured">
+            <div className="magazine-content">
+              <div className="card-subtitle">🏆 Conquista Histórica</div>
+              <h3 className="magazine-title">Copa Libertadores 2011</h3>
+              <p className="magazine-text">
+                O Universidad de Chile conquistou a Copa Libertadores em 2011, tornando-se o primeiro 
+                e único clube chileno a vencer o torneio mais prestigioso da América do Sul. Esta conquista 
+                histórica consolidou o clube como uma potência continental e marcou uma geração de torcedores.
               </p>
             </div>
           </div>
-          <p className="section-text highlight">
-            Com mais de <strong>30 títulos oficiais</strong> em sua história, o Universidad de Chile é, sem dúvida, o clube mais vitorioso 
-            e bem-sucedido do futebol chileno, representando um legado de excelência e conquistas que inspira gerações de torcedores.
-          </p>
+          
+          <div className="magazine-item regular">
+            <div className="magazine-content">
+              <div className="card-subtitle">🥇 Domínio Nacional</div>
+              <h3 className="magazine-title">18 Títulos Nacionais</h3>
+              <p className="magazine-text">
+                Com 18 conquistas do Campeonato Chileno, o Universidad de Chile é o clube mais vitorioso 
+                do país, demonstrando sua hegemonia histórica no futebol nacional.
+              </p>
+            </div>
+          </div>
+          
+          <div className="magazine-item regular">
+            <div className="magazine-content">
+              <div className="card-subtitle">🌎 Sucesso Continental</div>
+              <h3 className="magazine-title">Copa Sul-Americana 2011</h3>
+              <p className="magazine-text">
+                No mesmo ano da Libertadores, o clube também conquistou a Copa Sul-Americana, completando 
+                uma temporada histórica e inesquecível.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -48,4 +73,3 @@ const Achievements = () => {
 };
 
 export default Achievements;
-

@@ -28,10 +28,10 @@ const ScrollProgress = () => {
         left: 0,
         width: `${scrollProgress}%`,
         height: '4px',
-        background: 'linear-gradient(90deg, #0033a0 0%, #ffd700 100%)',
+        background: 'linear-gradient(90deg, var(--primary) 0%, var(--accent) 100%)',
         zIndex: 9999,
         transition: 'width 0.1s ease-out',
-        boxShadow: '0 2px 10px rgba(0, 51, 160, 0.5)',
+        boxShadow: '0 2px 10px rgba(10, 25, 47, 0.5)',
       }}
     />
   );

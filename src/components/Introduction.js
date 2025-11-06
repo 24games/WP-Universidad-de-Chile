@@ -1,32 +1,60 @@
 import React from 'react';
-import './Section.css';
+import './Content.css';
 
 const Introduction = () => {
   return (
-    <section className="section introduction">
-      <div className="section-container">
-        <h2 className="section-title">Introdução ao Universidad de Chile</h2>
-        <div className="section-content">
-          <p className="section-text">
-            O <strong>Club Universidad de Chile</strong>, fundado em 24 de maio de 1927, é o clube de futebol mais vitorioso e popular do Chile. 
-            Conhecido carinhosamente como "La U" ou "Los Azules", o clube representa não apenas uma instituição esportiva, mas um verdadeiro 
-            símbolo da identidade cultural chilena.
-          </p>
-          <p className="section-text">
-            Com uma base de fãs que ultrapassa milhões de torcedores em todo o país, o Universidad de Chile é reconhecido por sua tradição, 
-            sua paixão e sua busca constante pela excelência. O clube não é apenas o mais vitorioso do Chile em termos de títulos, mas também 
-            o que possui a maior torcida organizada e o maior impacto social e cultural no cenário esportivo nacional.
-          </p>
-          <p className="section-text">
-            Além do campo, o Universidad de Chile transcende o esporte, influenciando a cultura popular, a música, a arte e até mesmo a política 
-            chilena. O clube representa valores de união, perseverança e orgulho nacional, sendo uma parte fundamental da história e da identidade 
-            do povo chileno.
-          </p>
+    <section className="content-section intro-section">
+      <div className="container container-narrow">
+        <div className="section-header">
+          <span className="section-label">Introdução</span>
+          <h2 className="section-title">O Clube que Define o Futebol Chileno</h2>
+        </div>
+        
+        <div className="content-grid">
+          <div className="content-main">
+            <div className="content-text">
+              <p className="lead-text">
+                Fundado em <strong>24 de maio de 1927</strong>, o Club Universidad de Chile 
+                não é apenas um time de futebol. É uma instituição que transcende o esporte, 
+                representando valores, tradição e paixão que unem milhões de chilenos.
+              </p>
+              
+              <p>
+                Conhecido carinhosamente como <strong>"La U"</strong> ou <strong>"Los Azules"</strong>, 
+                o clube carrega consigo quase um século de história, conquistas memoráveis e uma 
+                torcida que transforma cada jogo em uma celebração da identidade nacional chilena.
+              </p>
+              
+              <p>
+                Com <strong>18 títulos nacionais</strong> e a histórica <strong>Copa Libertadores de 2011</strong>, 
+                o Universidad de Chile estabeleceu-se como o clube mais vitorioso do país, mas sua 
+                grandeza vai além dos troféus: está na forma como representa o povo chileno, na 
+                cultura que cria e na paixão que inspira.
+              </p>
+            </div>
+          </div>
           
-          <div className="intro-media">
-            <div className="media-placeholder">
-              <span className="media-icon">🏆</span>
-              <p className="media-text">O escudo e as cores do Universidad de Chile - símbolos de tradição e paixão</p>
+          <div className="content-sidebar">
+            <div className="info-card">
+              <h3 className="info-card-title">Em Números</h3>
+              <ul className="info-list">
+                <li>
+                  <span className="info-label">Fundação</span>
+                  <span className="info-value">1927</span>
+                </li>
+                <li>
+                  <span className="info-label">Títulos Nacionais</span>
+                  <span className="info-value">18</span>
+                </li>
+                <li>
+                  <span className="info-label">Copa Libertadores</span>
+                  <span className="info-value">1</span>
+                </li>
+                <li>
+                  <span className="info-label">Torcedores</span>
+                  <span className="info-value">Milhões</span>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -36,4 +64,3 @@ const Introduction = () => {
 };
 
 export default Introduction;
-

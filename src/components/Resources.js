@@ -1,86 +1,96 @@
 import React from 'react';
-import './Section.css';
+import './Content.css';
 
 const Resources = () => {
   return (
-    <section className="section resources">
-      <div className="section-container">
-        <h2 className="section-title">Recursos e Fontes</h2>
-        <div className="section-content">
-          <p className="section-text">
-            Para aprofundar seu conhecimento sobre o Universidad de Chile, recomendamos os seguintes recursos históricos, 
-            documentários e artigos que enriquecem ainda mais a compreensão sobre este clube lendário.
-          </p>
-          
-          <div className="resources-grid">
-            <div className="resource-item">
-              <h3 className="resource-title">📚 Documentários</h3>
-              <ul className="resource-list">
-                <li>
-                  <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className="resource-link">
+    <section className="content-section">
+      <div className="container">
+        <div className="section-header">
+          <span className="section-label">Recursos</span>
+          <h2 className="section-title">Explore Mais sobre o Clube</h2>
+        </div>
+        
+        <div className="magazine-grid">
+          <div className="magazine-item featured">
+            <div className="magazine-content">
+              <div className="card-subtitle">📚 Documentários</div>
+              <h3 className="magazine-title">Conteúdo Visual e Histórico</h3>
+              <ul style={{ listStyle: 'none', padding: 0, marginTop: 'var(--space-4)' }}>
+                <li style={{ marginBottom: 'var(--space-3)', paddingLeft: 'var(--space-4)', position: 'relative' }}>
+                  <span style={{ position: 'absolute', left: 0, color: 'var(--accent)' }}>→</span>
+                  <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary)', textDecoration: 'none' }}>
                     "La U: Una Historia de Pasión" - Documentário sobre a história do clube
                   </a>
                 </li>
-                <li>
-                  <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className="resource-link">
+                <li style={{ marginBottom: 'var(--space-3)', paddingLeft: 'var(--space-4)', position: 'relative' }}>
+                  <span style={{ position: 'absolute', left: 0, color: 'var(--accent)' }}>→</span>
+                  <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary)', textDecoration: 'none' }}>
                     "Copa Libertadores 2011: El Sueño Azul" - A conquista histórica
                   </a>
                 </li>
-                <li>
-                  <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className="resource-link">
+                <li style={{ marginBottom: 'var(--space-3)', paddingLeft: 'var(--space-4)', position: 'relative' }}>
+                  <span style={{ position: 'absolute', left: 0, color: 'var(--accent)' }}>→</span>
+                  <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary)', textDecoration: 'none' }}>
                     "Marcelo Salas: El Matador" - Trajetória do maior ídolo
-                  </a>
-                </li>
-              </ul>
-            </div>
-            
-            <div className="resource-item">
-              <h3 className="resource-title">📖 Artigos Históricos</h3>
-              <ul className="resource-list">
-                <li>
-                  <a href="https://es.wikipedia.org/wiki/Club_Universidad_de_Chile" target="_blank" rel="noopener noreferrer" className="resource-link">
-                    História completa do Universidad de Chile (Wikipedia)
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.anfp.cl" target="_blank" rel="noopener noreferrer" className="resource-link">
-                    Anuário do Futebol Chileno - Estatísticas e recordes
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.conmebol.com" target="_blank" rel="noopener noreferrer" className="resource-link">
-                    CONMEBOL - História da Copa Libertadores
-                  </a>
-                </li>
-              </ul>
-            </div>
-            
-            <div className="resource-item">
-              <h3 className="resource-title">🎥 Momentos Épicos</h3>
-              <ul className="resource-list">
-                <li>
-                  <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className="resource-link">
-                    Final da Copa Libertadores 2011 - Gols e comemorações
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className="resource-link">
-                    Superclásico Chileno - Melhores momentos históricos
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className="resource-link">
-                    Torcida do Universidad de Chile - Cânticos e celebrações
                   </a>
                 </li>
               </ul>
             </div>
           </div>
           
-          <p className="section-text highlight">
-            <strong>Nota:</strong> Os links acima são exemplos de recursos educativos. Recomendamos buscar conteúdo oficial do clube 
-            e fontes confiáveis para informações atualizadas e precisas sobre o Universidad de Chile.
-          </p>
+          <div className="magazine-item regular">
+            <div className="magazine-content">
+              <div className="card-subtitle">📖 Artigos</div>
+              <h3 className="magazine-title">Leitura e Pesquisa</h3>
+              <ul style={{ listStyle: 'none', padding: 0, marginTop: 'var(--space-4)' }}>
+                <li style={{ marginBottom: 'var(--space-3)', paddingLeft: 'var(--space-4)', position: 'relative' }}>
+                  <span style={{ position: 'absolute', left: 0, color: 'var(--accent)' }}>→</span>
+                  <a href="https://es.wikipedia.org/wiki/Club_Universidad_de_Chile" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary)', textDecoration: 'none' }}>
+                    História completa (Wikipedia)
+                  </a>
+                </li>
+                <li style={{ marginBottom: 'var(--space-3)', paddingLeft: 'var(--space-4)', position: 'relative' }}>
+                  <span style={{ position: 'absolute', left: 0, color: 'var(--accent)' }}>→</span>
+                  <a href="https://www.anfp.cl" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary)', textDecoration: 'none' }}>
+                    Anuário do Futebol Chileno
+                  </a>
+                </li>
+                <li style={{ marginBottom: 'var(--space-3)', paddingLeft: 'var(--space-4)', position: 'relative' }}>
+                  <span style={{ position: 'absolute', left: 0, color: 'var(--accent)' }}>→</span>
+                  <a href="https://www.conmebol.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary)', textDecoration: 'none' }}>
+                    CONMEBOL - História da Libertadores
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          
+          <div className="magazine-item regular">
+            <div className="magazine-content">
+              <div className="card-subtitle">🎥 Vídeos</div>
+              <h3 className="magazine-title">Momentos Épicos</h3>
+              <ul style={{ listStyle: 'none', padding: 0, marginTop: 'var(--space-4)' }}>
+                <li style={{ marginBottom: 'var(--space-3)', paddingLeft: 'var(--space-4)', position: 'relative' }}>
+                  <span style={{ position: 'absolute', left: 0, color: 'var(--accent)' }}>→</span>
+                  <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary)', textDecoration: 'none' }}>
+                    Final Libertadores 2011
+                  </a>
+                </li>
+                <li style={{ marginBottom: 'var(--space-3)', paddingLeft: 'var(--space-4)', position: 'relative' }}>
+                  <span style={{ position: 'absolute', left: 0, color: 'var(--accent)' }}>→</span>
+                  <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary)', textDecoration: 'none' }}>
+                    Superclásico - Melhores Momentos
+                  </a>
+                </li>
+                <li style={{ marginBottom: 'var(--space-3)', paddingLeft: 'var(--space-4)', position: 'relative' }}>
+                  <span style={{ position: 'absolute', left: 0, color: 'var(--accent)' }}>→</span>
+                  <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary)', textDecoration: 'none' }}>
+                    Torcida - Cânticos e Celebrações
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -88,4 +98,3 @@ const Resources = () => {
 };
 
 export default Resources;
-
