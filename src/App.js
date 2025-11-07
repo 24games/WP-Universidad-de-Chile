@@ -1,38 +1,19 @@
 import React from 'react';
-import ScrollProgress from './components/ScrollProgress';
-import Header from './components/Header';
-import Introduction from './components/Introduction';
-import History from './components/History';
-import Achievements from './components/Achievements';
-import Rivalries from './components/Rivalries';
-import Stadium from './components/Stadium';
-import Players from './components/Players';
-import Culture from './components/Culture';
-import Future from './components/Future';
-import Resources from './components/Resources';
-import Conclusion from './components/Conclusion';
-import Footer from './components/Footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Terms from './pages/Terms';
+import Privacy from './pages/Privacy';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <ScrollProgress />
-      <Header />
-      <main>
-        <Introduction />
-        <History />
-        <Achievements />
-        <Rivalries />
-        <Stadium />
-        <Players />
-        <Culture />
-        <Future />
-        <Resources />
-        <Conclusion />
-      </main>
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/terminos-y-condiciones" element={<Terms />} />
+        <Route path="/politica-de-privacidad" element={<Privacy />} />
+      </Routes>
+    </Router>
   );
 }
 
